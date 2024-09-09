@@ -45,18 +45,18 @@
 			cin>>num14;
 			
 			sum = (num1+num2+num3);
-				cout<<"The sum of three numbers is: "<<sum;
+				cout<<"The sum of three numbers is: "<<sum<<endl;
 			
 			difference = (num4-num5-num6);
-				cout<<"The difference of three numbers is: "<<difference;
+				cout<<"The difference of three numbers is: "<<difference<<endl;
 				
 			product = (num7*num8*num9);
-				cout<<"The Difference of three product numbers is: "<<product;
+				cout<<"The Difference of three product numbers is: "<<product<<endl;
 			
 			quotient = (num10/num11/num12);
-				cout<<"The difference of three quotient numbers is: "<<quotient;
+				cout<<"The difference of three quotient numbers is: "<<quotient<<endl;
 			
 			mod = (num13%num14);
-				cout<<"The remainder of two numbers is: "<<mod;
+				cout<<"The remainder of two numbers is: "<<mod<<endl;
 	return 0;
 		}
