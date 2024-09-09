@@ -53,10 +53,10 @@
 			product = (num7*num8*num9);
 				cout<<"The Difference of three product numbers is: "<<product;
 			
-			quotient = (num10%num11%num12);
+			quotient = (num10/num11/num12);
 				cout<<"The difference of three quotient numbers is: "<<quotient;
 			
-			mod = (num13/num14);
+			mod = (num13%num14);
 				cout<<"The remainder of two numbers is: "<<mod;
 	
 		}
