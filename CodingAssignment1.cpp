@@ -58,5 +58,5 @@
 			
 			mod = (num13%num14);
 				cout<<"The remainder of two numbers is: "<<mod;
-	
+	return 0;
 		}
