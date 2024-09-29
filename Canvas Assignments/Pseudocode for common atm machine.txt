@@ -1,0 +1,81 @@
+//Pseudocode for common atm machine transaction
+
+//Variables for ATM
+ Balance inquiries, Cash withdrawal, Fund transfer, PIN change
+
+//Process
+Start ATM
+ Insert ATM Card
+ display"Enter your PIN code"
+ accept the entered PIN
+ 
+ display "1. Cash Withdrawal"
+ display "2. Balance Inquiries"
+ display "3. Fund transfer"
+ display "4. Change PIN"
+ display "5. Exit ATM"
+ 
+ if choice==1, then
+  display "Enter the amount"
+	
+	else if (amount<=balance)
+	balance=balance-amount
+	display"Transaction Complete! Please take your card"
+	else
+		display "Not enough cash", balance
+	end if
+
+else if choice==2, then
+display "Checking balance costs 18PHP, would you like to proceed?"
+display "1. Yes"
+display "2. No"
+
+if user_choice==1 then
+	display"Your remaining balance is: "
+	print"",balance
+
+	else user_choice==2 then
+	display "Please take your card"
+	end if
+
+else if choice==3, then
+	display "Transferring funds costs 20PHP, would you like to proceed?"
+	display "1. Yes"
+	display "2. No"
+if user_choice==1 then
+	display"Enter the amount"
+	accept amount
+	display"Enter the account user"
+	accept target_user
+	display"Re-enter your PIN"
+	accept entered PIN
+
+else if (amount<=balance)
+	balance=balance-amount
+	display "Funds has been successfully transferred!", target_user
+end if
+
+else if user_choice==2 then
+	display "Please take your card"
+	end if
+
+else if choice==4, then
+	display "Enter your PIN"
+	accept entered_PIN
+	display "Enter new PIN"
+	accept new_PIN
+	display "Re-enter your new PIN"
+	accept new_PIN
+
+if entered_Pin==new_PIN then
+	pin=new_PIN
+display "Your PIN has been changed successfully!"
+end if
+
+else if choice==5, then
+	display "Transaction cancelled, please take your card"
+	end if
+
+end program
+
+	
