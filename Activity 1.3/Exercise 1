@@ -1,0 +1,6 @@
+#include<stdio.h>
+	int main()
+	{
+		printf("Name: Benedict U. Tabora \n");printf("Course: BscpE-11S1 \n");
+		return 0;
+	}
