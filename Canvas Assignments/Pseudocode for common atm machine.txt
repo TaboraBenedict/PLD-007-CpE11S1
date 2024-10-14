@@ -23,7 +23,6 @@ Start ATM
 	display"Transaction Complete! Please take your card"
 	else
 		display "Not enough cash", balance
-	end if
 
 else if choice==2, then
 display "Checking balance costs 18PHP, would you like to proceed?"
@@ -36,7 +35,6 @@ if user_choice==1 then
 
 	else user_choice==2 then
 	display "Please take your card"
-	end if
 
 else if choice==3, then
 	display "Transferring funds costs 20PHP, would you like to proceed?"
@@ -57,7 +55,6 @@ end if
 
 else if user_choice==2 then
 	display "Please take your card"
-	end if
 
 else if choice==4, then
 	display "Enter your PIN"
@@ -74,8 +71,5 @@ end if
 
 else if choice==5, then
 	display "Transaction cancelled, please take your card"
-	end if
 
 end program
-
-	
