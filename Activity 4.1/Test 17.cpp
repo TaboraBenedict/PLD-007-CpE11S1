@@ -25,29 +25,52 @@
 					cout<<"------------------------------------------"<<endl;
 					
 						average=(physics+biology+math+computer+chemistry)/5;
-											cout<<"Average is: "<<average<<endl;
+							cout<<"Average is: "<<average<<endl;
 				
-					switch(g)
-						{
-							case 90 ... 100:
-							cout<<"Grade Level: A"<<endl;
-							break;
-							
-							case 80 ... 89:
-							cout<<"Grade Level: B"<<endl;
-							break;
-							
-							case 70 ... 79:
-							cout<<"Grade Level: C"<<endl;
-							break;
-							
-							case 40 ... 69:
-							cout<<"Grade Level: D"<<endl;
-							break;
-							
-							case 1 ... 39:
-							cout<<"Grade Level: E"<<endl;
-							break;
-						}
-				return 0;
+			if (average>=90)
+				{
+					g='A';
+				}
+				else if (average>=80)
+				{
+					g='B';
+				}
+				else if (average>=70)
+				{
+					g='C';
+				}
+				else if (average>=60)
+				{
+					g='D';
+				}
+					else if (average>=40)
+					{
+						g='E';
+					}
+					else if (average<=39)
+					{
+						g='F';
+					}
+	switch(g)
+	{
+        case 'A':
+            cout << "Grade Level: A" << endl;
+            break;
+        case 'B':
+            cout << "Grade Level: B" << endl;
+            break;
+        case 'C':
+            cout << "Grade Level: C" << endl;
+            break;
+        case 'D':
+            cout << "Grade Level: D" << endl;
+            break;
+        case 'E':
+            cout << "Grade Level: E" << endl;
+            break;
+        default:
+            cout << "Grade Level: F" << endl;
+            break;
 			}
+	return 0;
+}
