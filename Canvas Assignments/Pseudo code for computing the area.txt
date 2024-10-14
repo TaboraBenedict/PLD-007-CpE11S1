@@ -1,13 +1,25 @@
 //Pseudo code for computing the area of a rectangle
-//Formula: A=(½) (b)(h).
+
+//Formula: A=(½) (L)(W).
+
+
 
 Start
-use variables: area, base, height
-display "Enter the based of the rectangle: "
-accept base
-display "Enter the height of the rectangle: "
-accept height
 
-area=0.5 * base * height
+use variables: area, length, width
+
+display "Enter the Length of the rectangle: "
+
+accept length
+
+display "Enter the Width of the rectangle: "
+
+accept width
+
+
+
+area=0.5 * length * width
+
 print "The area is: ",area
+
 end program
